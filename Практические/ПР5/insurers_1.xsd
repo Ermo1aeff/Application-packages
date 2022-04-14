@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="insureOrder">	   
+		<xs:complexType>
+			<xs:sequence>
+			 
+				<xs:element name="policyholder">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="regNum" type="xs:long"/>
+              <xs:element name="name" type="xs:string"/>
+							<xs:element name="inn" type="xs:long"/>
+							<xs:element name="kpp" type="xs:long"/>        
+              
+              <xs:element name="typeForm">
+								<xs:simpleType>
+									<xs:restriction base="xs:string"> <!--Ограничения для типа формы-->
+                    <xs:enumeration  value="Исходная"/>
+										<xs:enumeration  value="Дополняющая"/>
+										<xs:enumeration  value="Отменяющая"/>
+									</xs:restriction>
+								</xs:simpleType>
+              </xs:element>
+              
+              <xs:element name="repMonth">
+								<xs:simpleType>
+									<xs:restriction base="xs:gMonth">	<!--Ограничения отчетного периода-->
+                    <xs:enumeration  value="--01--"/>
+										<xs:enumeration  value="--02--"/>
+										<xs:enumeration  value="--03--"/>
+										<xs:enumeration  value="--04--"/>
+										<xs:enumeration  value="--05--"/>
+										<xs:enumeration  value="--06--"/>
+										<xs:enumeration  value="--07--"/>
+										<xs:enumeration  value="--08--"/>
+										<xs:enumeration  value="--09--"/>
+										<xs:enumeration  value="--10--"/>
+										<xs:enumeration  value="--11--"/>
+										<xs:enumeration  value="--12--"/>
+									</xs:restriction>
+								</xs:simpleType>
+              </xs:element>
+
+              <xs:element name="repYear" type="xs:gYear"/>
+              <xs:element name="dateOrder" type="xs:date"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="insurerPerson" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="number" type="xs:integer"/>
+							<xs:element name="name" type="xs:string"/>
+							<xs:element name="snils" type="xs:long"/>
+							<xs:element name="inn" type="xs:long"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			 
+			</xs:sequence>
+			<xs:attribute name="orderid" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>	
+</xs:schema>
+

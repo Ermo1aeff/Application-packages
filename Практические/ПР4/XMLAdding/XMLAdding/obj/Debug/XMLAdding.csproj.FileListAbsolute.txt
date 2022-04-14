@@ -1,0 +1,141 @@
+D:\4-ИС-1\Ермолаев Е А\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csprojAssemblyReference.cache
+D:\4-ИС-1\Ермолаев Е А\XMLAdding\XMLAdding\obj\Debug\MainWindow.g.cs
+D:\4-ИС-1\Ермолаев Е А\XMLAdding\XMLAdding\obj\Debug\App.g.cs
+D:\4-ИС-1\Ермолаев Е А\XMLAdding\XMLAdding\obj\Debug\XMLAdding_MarkupCompile.cache
+D:\4-ИС-1\Ермолаев Е А\XMLAdding\XMLAdding\obj\Debug\XMLAdding_MarkupCompile.lref
+D:\4-ИС-1\Ермолаев Е А\XMLAdding\XMLAdding\bin\Debug\XMLAdding.exe.config
+D:\4-ИС-1\Ермолаев Е А\XMLAdding\XMLAdding\bin\Debug\XMLAdding.exe
+D:\4-ИС-1\Ермолаев Е А\XMLAdding\XMLAdding\bin\Debug\XMLAdding.pdb
+D:\4-ИС-1\Ермолаев Е А\XMLAdding\XMLAdding\obj\Debug\MainWindow.baml
+D:\4-ИС-1\Ермолаев Е А\XMLAdding\XMLAdding\obj\Debug\XMLAdding.g.resources
+D:\4-ИС-1\Ермолаев Е А\XMLAdding\XMLAdding\obj\Debug\XMLAdding.Properties.Resources.resources
+D:\4-ИС-1\Ермолаев Е А\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csproj.GenerateResource.cache
+D:\4-ИС-1\Ермолаев Е А\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csproj.CoreCompileInputs.cache
+D:\4-ИС-1\Ермолаев Е А\XMLAdding\XMLAdding\obj\Debug\XMLAdding.exe
+D:\4-ИС-1\Ермолаев Е А\XMLAdding\XMLAdding\obj\Debug\XMLAdding.pdb
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\MainWindow.g.cs
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\App.g.cs
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding_Content.g.cs
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding_MarkupCompile.cache
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding_MarkupCompile.lref
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.exe
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.pdb
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\XMLAdding.exe.config
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\XMLAdding.exe
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\XMLAdding.pdb
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.dll
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.SqlServer.dll
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.xml
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.SqlServer.xml
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\MainWindow.baml
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.g.resources
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.Properties.Resources.resources
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csproj.GenerateResource.cache
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csproj.CoreCompileInputs.cache
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csproj.CopyComplete
+\\42-09\d\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\XMLAdding.exe.config
+\\42-09\d\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\XMLAdding.exe
+\\42-09\d\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\XMLAdding.pdb
+\\42-09\d\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.dll
+\\42-09\d\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.SqlServer.dll
+\\42-09\d\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.xml
+\\42-09\d\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.SqlServer.xml
+\\42-09\d\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csprojAssemblyReference.cache
+\\42-09\d\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\MainWindow.g.cs
+\\42-09\d\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\App.g.cs
+\\42-09\d\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding_Content.g.cs
+\\42-09\d\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding_MarkupCompile.cache
+\\42-09\d\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding_MarkupCompile.lref
+\\42-09\d\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\MainWindow.baml
+\\42-09\d\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.g.resources
+\\42-09\d\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.Properties.Resources.resources
+\\42-09\d\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csproj.GenerateResource.cache
+\\42-09\d\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csproj.CoreCompileInputs.cache
+\\42-09\d\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csproj.CopyComplete
+\\42-09\d\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.exe
+\\42-09\d\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.pdb
+D:\4ИС1\Ермолаев Егор\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\XMLAdding.exe.config
+D:\4ИС1\Ермолаев Егор\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\XMLAdding.exe
+D:\4ИС1\Ермолаев Егор\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\XMLAdding.pdb
+D:\4ИС1\Ермолаев Егор\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.dll
+D:\4ИС1\Ермолаев Егор\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.SqlServer.dll
+D:\4ИС1\Ермолаев Егор\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.xml
+D:\4ИС1\Ермолаев Егор\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.SqlServer.xml
+D:\4ИС1\Ермолаев Егор\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csprojAssemblyReference.cache
+D:\4ИС1\Ермолаев Егор\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\MainWindow.g.cs
+D:\4ИС1\Ермолаев Егор\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\App.g.cs
+D:\4ИС1\Ермолаев Егор\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding_Content.g.cs
+D:\4ИС1\Ермолаев Егор\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding_MarkupCompile.cache
+D:\4ИС1\Ермолаев Егор\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding_MarkupCompile.lref
+D:\4ИС1\Ермолаев Егор\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\MainWindow.baml
+D:\4ИС1\Ермолаев Егор\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.g.resources
+D:\4ИС1\Ермолаев Егор\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.Properties.Resources.resources
+D:\4ИС1\Ермолаев Егор\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csproj.GenerateResource.cache
+D:\4ИС1\Ермолаев Егор\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csproj.CoreCompileInputs.cache
+D:\4ИС1\Ермолаев Егор\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csproj.CopyComplete
+D:\4ИС1\Ермолаев Егор\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.exe
+D:\4ИС1\Ермолаев Егор\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.pdb
+D:\4ИС1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\XMLAdding.exe.config
+D:\4ИС1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\XMLAdding.exe
+D:\4ИС1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\XMLAdding.pdb
+D:\4ИС1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.dll
+D:\4ИС1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.SqlServer.dll
+D:\4ИС1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.xml
+D:\4ИС1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.SqlServer.xml
+D:\4ИС1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csprojAssemblyReference.cache
+D:\4ИС1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\MainWindow.g.cs
+D:\4ИС1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\App.g.cs
+D:\4ИС1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding_Content.g.cs
+D:\4ИС1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding_MarkupCompile.cache
+D:\4ИС1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding_MarkupCompile.lref
+D:\4ИС1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\MainWindow.baml
+D:\4ИС1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.g.resources
+D:\4ИС1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.Properties.Resources.resources
+D:\4ИС1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csproj.GenerateResource.cache
+D:\4ИС1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csproj.CoreCompileInputs.cache
+D:\4ИС1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csproj.CopyComplete
+D:\4ИС1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.exe
+D:\4ИС1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.pdb
+\\42-11\d\4ИС1\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\XMLAdding.exe.config
+\\42-11\d\4ИС1\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\XMLAdding.exe
+\\42-11\d\4ИС1\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\XMLAdding.pdb
+\\42-11\d\4ИС1\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.dll
+\\42-11\d\4ИС1\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.SqlServer.dll
+\\42-11\d\4ИС1\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.xml
+\\42-11\d\4ИС1\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.SqlServer.xml
+\\42-11\d\4ИС1\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csproj.AssemblyReference.cache
+\\42-11\d\4ИС1\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\MainWindow.g.cs
+\\42-11\d\4ИС1\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\App.g.cs
+\\42-11\d\4ИС1\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding_Content.g.cs
+\\42-11\d\4ИС1\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding_MarkupCompile.cache
+\\42-11\d\4ИС1\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding_MarkupCompile.lref
+\\42-11\d\4ИС1\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\MainWindow.baml
+\\42-11\d\4ИС1\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.g.resources
+\\42-11\d\4ИС1\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.Properties.Resources.resources
+\\42-11\d\4ИС1\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csproj.GenerateResource.cache
+\\42-11\d\4ИС1\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csproj.CoreCompileInputs.cache
+\\42-11\d\4ИС1\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csproj.CopyComplete
+\\42-11\d\4ИС1\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.exe
+\\42-11\d\4ИС1\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.pdb
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csproj.AssemblyReference.cache
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\XMLAdding.exe.config
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\XMLAdding.exe
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\XMLAdding.pdb
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.dll
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.SqlServer.dll
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.xml
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\bin\Debug\EntityFramework.SqlServer.xml
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csproj.AssemblyReference.cache
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\MainWindow.g.cs
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\App.g.cs
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding_Content.g.cs
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding_MarkupCompile.cache
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding_MarkupCompile.lref
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\MainWindow.baml
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.g.resources
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.Properties.Resources.resources
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csproj.GenerateResource.cache
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csproj.CoreCompileInputs.cache
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.csproj.CopyComplete
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.exe
+D:\4-ИС-1\Ермолаев Е А\Пакеты прикладных программ\Пакеты прикладных программ\Практические\ПР4\XMLAdding\XMLAdding\obj\Debug\XMLAdding.pdb

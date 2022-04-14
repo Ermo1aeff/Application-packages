@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:simpleType name="stringtype">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+
+	<xs:simpleType name="inttype">
+		<xs:restriction base="xs:positiveInteger"/>
+	</xs:simpleType>
+
+	<xs:simpleType name="bytetype">
+		<xs:restriction base="xs:byte"/>
+	</xs:simpleType>
+
+	<xs:simpleType name="datetype">
+		<xs:restriction base="xs:date"/>
+	</xs:simpleType>
+
+	<xs:simpleType name="decimaltype">
+		<xs:restriction base="xs:decimal"/>
+	</xs:simpleType>
+
+	<xs:simpleType name="primCalctype">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]{3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="inntype">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]{9,12}"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="osntype">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[1-3]{1}"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="snilstype">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]{3}-[0-9]{3}-[0-9]{3} [0-9]{2}"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="okvedtype">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]{2}\.[0-9]{1,2}\.{0,1}[0-9]{0,2}"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="phonenumtype">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="(\+7|8)\([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="yeartype">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="(19|2[0-9]{1})[0-9]{2}"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="nametype">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="(\D|\S)* (\D|\S)* (\D|\S)*"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:complexType name ="titletype">
+		<xs:sequence>
+			<xs:element name="primCalc" type="primCalctype"/>
+			<xs:element name="year" type="yeartype"/>		
+			<xs:element name="term" type="stringtype"/>		
+			<xs:element name="name" type="nametype"/>		
+			<xs:element name="inn" type="inntype"/>		
+			<xs:element name="okved" type="okvedtype"/>		
+			<xs:element name="phone" type="phonenumtype"/>
+			<xs:element name="members" type="bytetype"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name ="row100type">
+		<xs:sequence>
+			<xs:element name="col3" type="decimaltype"/>
+			<xs:element name="col4" type="decimaltype"/>
+			<xs:element name="col5" type="decimaltype"/>
+			<xs:element name="col6" type="decimaltype"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name ="row110type">
+		<xs:sequence>
+			<xs:element name="col3" type="decimaltype"/>
+			<xs:element name="col6" type="decimaltype"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name ="row120type">
+		<xs:sequence>
+			<xs:element name="col3" type="decimaltype"/>
+			<xs:element name="col4" type="decimaltype"/>
+			<xs:element name="col5" type="decimaltype"/>
+			<xs:element name="col6" type="decimaltype"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name ="row130type">
+		<xs:sequence>
+			<xs:element name="col3" type="decimaltype"/>
+			<xs:element name="col4" type="decimaltype"/>
+			<xs:element name="col5" type="decimaltype"/>
+			<xs:element name="col6" type="decimaltype"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name ="row140type">
+		<xs:sequence>
+			<xs:element name="col3" type="decimaltype"/>
+			<xs:element name="col4" type="decimaltype"/>
+			<xs:element name="col5" type="decimaltype"/>
+			<xs:element name="col6" type="decimaltype"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name ="row150type">
+		<xs:sequence>
+			<xs:element name="col3" type="decimaltype"/>
+			<xs:element name="col4" type="decimaltype"/>
+			<xs:element name="col5" type="decimaltype"/>
+			<xs:element name="col6" type="decimaltype"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name ="chapter1type">
+		<xs:sequence>		
+			<xs:element name="row100" type="row100type"/>
+			<xs:element name="row110" type="row110type"/>		
+			<xs:element name="row120" type="row120type"/>		
+			<xs:element name="row130" type="row130type"/>		
+			<xs:element name="row140" type="row140type"/>		
+			<xs:element name="row150" type="row150type"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name ="chapterPerson2type">
+		<xs:sequence>
+			<xs:element name="num" type="bytetype"/>
+			<xs:element name="name" type="nametype"/>
+			<xs:element name="snils" type="snilstype"/>
+			<xs:element name="year" type="yeartype"/>
+			<xs:element name="startdate" type="datetype"/>
+			<xs:element name="enddate" type="datetype"/>
+			<xs:element name="pinsurance" type="decimaltype"/>
+			<xs:element name="medinsurance" type="decimaltype"/>
+		</xs:sequence>
+	</xs:complexType>
+
+  <xs:complexType name ="chapter2type">
+    <xs:sequence>
+      <xs:element name="chapterPersons2" type="chapterPerson2type" maxOccurs="22"/>
+    </xs:sequence>
+  </xs:complexType>
+	
+	<xs:complexType name ="chapterPerson3type">
+		<xs:sequence>
+			<xs:element name="num" type="bytetype"/>
+			<xs:element name="osn" type="osntype"/>
+			<xs:element name="name" type="nametype"/>
+			<xs:element name="snils" type="snilstype"/>
+			<xs:element name="year" type="yeartype"/>
+			<xs:element name="startdate" type="datetype"/>
+			<xs:element name="enddate" type="datetype"/>
+			<xs:element name="since2014" type="decimaltype"/>
+			<xs:element name="pinsurance" type="decimaltype"/>
+			<xs:element name="nakpension" type="decimaltype"/>
+			<xs:element name="medinsurance" type="decimaltype"/>
+		</xs:sequence>
+	</xs:complexType>
+
+  <xs:complexType name ="chapter3type">
+    <xs:sequence>
+      <xs:element name="chapterPersons3" type="chapterPerson3type" maxOccurs="22"/>
+    </xs:sequence>
+  </xs:complexType>
+
+	<xs:complexType name="insurancetype">
+		<xs:sequence>
+			<xs:element name="title" type="titletype"/>
+			<xs:element name="chapter1" type="chapter1type"/>
+			<xs:element name="chapter2" type="chapter2type"/>
+			<xs:element name="chapter3" type="chapter3type"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="documentstype">
+		<xs:sequence>
+			<xs:element name="insurance" type="insurancetype" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="documents" type="documentstype"/>
+</xs:schema>
+

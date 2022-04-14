@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="IS_1_Ermolaev_PlantModelStoreContainer" CdmEntityContainer="Entities1">
+    <EntitySetMapping Name="botanical">
+      <EntityTypeMapping TypeName="IS_1_Ermolaev_PlantModel.botanical">
+        <MappingFragment StoreEntitySet="botanical">
+          <ScalarProperty Name="zone" ColumnName="zone" />
+          <ScalarProperty Name="common_id" ColumnName="common_id" />
+          <ScalarProperty Name="botanical_id" ColumnName="botanical_id" />
+          <ScalarProperty Name="botanical_name" ColumnName="botanical_name" />
+          <ScalarProperty Name="light_id" ColumnName="light_id" />
+          <ScalarProperty Name="price_id" ColumnName="price_id" />
+          <ScalarProperty Name="availability" ColumnName="availability" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="common">
+      <EntityTypeMapping TypeName="IS_1_Ermolaev_PlantModel.common">
+        <MappingFragment StoreEntitySet="common">
+          <ScalarProperty Name="common_id" ColumnName="common_id" />
+          <ScalarProperty Name="common_name" ColumnName="common_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="light">
+      <EntityTypeMapping TypeName="IS_1_Ermolaev_PlantModel.light">
+        <MappingFragment StoreEntitySet="light">
+          <ScalarProperty Name="light_id" ColumnName="light_id" />
+          <ScalarProperty Name="light_name" ColumnName="light_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="price">
+      <EntityTypeMapping TypeName="IS_1_Ermolaev_PlantModel.price">
+        <MappingFragment StoreEntitySet="price">
+          <ScalarProperty Name="price_id" ColumnName="price_id" />
+          <ScalarProperty Name="price_name" ColumnName="price_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="IS_1_Ermolaev_PlantModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="IS_1_Ermolaev_PlantModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="IS_1_Ermolaev_PlantModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="IS_1_Ermolaev_PlantModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="IS_1_Ermolaev_PlantModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="IS_1_Ermolaev_PlantModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="IS_1_Ermolaev_PlantModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="IS_1_Ermolaev_PlantModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="IS_1_Ermolaev_PlantModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="IS_1_Ermolaev_PlantModel.Store.sp_upgraddiagrams" />
+  </EntityContainerMapping>
+</Mapping>

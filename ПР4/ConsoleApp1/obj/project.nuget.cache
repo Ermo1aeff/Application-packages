@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "FH8izwYyPLspAYLUHLylWYsyLThW/xT3KVFTRQsWrmE40PnHM2AaWQ7i0X/D7oH9NHsqzXII23rwTp6YDPGgng==",
+  "success": false,
+  "projectFilePath": "D:\\4ИС1\\Ермолаев Егор\\42-09\\Ермолаев Е А\\Пакеты прикладных программ\\ПР4\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to read project information for 'ConsoleApp1': '\"Windows 10\"' is not a valid version string.\r\nParameter name: value"
+    }
+  ]
+}

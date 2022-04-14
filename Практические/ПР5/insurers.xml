@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<insureOrder orderid="889923"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="insurers_3.xsd">
+	
+	<policyholder>
+		<regNum>20124545</regNum>
+		<name>John Smith</name>
+		<inn>3456262490</inn>
+		<kpp>456244569</kpp>
+    <typeForm>Исходная</typeForm>
+    <repMonth>--05--</repMonth>
+		<repYear>2017</repYear>	
+		<dateOrder>2016-09-16</dateOrder>
+	</policyholder>
+
+	<insurerPerson>
+		<number>1</number>
+		<name>Boris Jonson</name>
+		<snils>32478514411</snils>
+		<inn>935720184012</inn>
+	</insurerPerson>
+  
+	<insurerPerson>
+		<number>2</number>
+		<name>Anne Hidalgo</name>
+		<snils>89723845211</snils>
+		<inn>897835782912</inn>
+	</insurerPerson>
+  
+	<insurerPerson>
+		<number>3</number>
+		<name>Emmanuel Macron</name>
+		<snils>09876543211</snils>
+		<inn>342462612612</inn>
+	</insurerPerson>
+	
+</insureOrder>

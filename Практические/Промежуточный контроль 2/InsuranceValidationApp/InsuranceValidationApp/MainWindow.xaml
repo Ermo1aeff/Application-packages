@@ -1,0 +1,65 @@
+﻿<Window x:Class="InsuranceValidationApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InsuranceValidationApp"
+        mc:Ignorable="d"
+        Title="Проверка корректности данных" 
+        Height="350" Width="600" 
+        MinHeight="350" MinWidth="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label x:Name="str110" Content="Строка 110" Grid.Column="0"/>
+            <RichTextBox x:Name="z1t1" Grid.Column="1"/>
+            <RichTextBox x:Name="z1t2" Grid.Column="2"/>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label x:Name="str120" Content="Строка 120" Grid.Column="0"/>
+            <RichTextBox x:Name="z2t1" Grid.Column="1"/>
+            <RichTextBox x:Name="z2t2" Grid.Column="2"/>
+            <RichTextBox x:Name="z2t3" Grid.Column="3"/>
+            <RichTextBox x:Name="z2t4" Grid.Column="4"/>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label x:Name="str150" Content="Строка 150" Grid.Column="0"/>
+            <RichTextBox x:Name="z3t1" Grid.Column="1"/>
+            <RichTextBox x:Name="z3t2" Grid.Column="2"/>
+            <RichTextBox x:Name="z3t3" Grid.Column="3"/>
+            <RichTextBox x:Name="z3t4" Grid.Column="4"/>
+        </Grid>
+
+        <Button Click="btnPushed" Grid.Row="3" Content="Проверить корректность"/>
+    </Grid>
+</Window>

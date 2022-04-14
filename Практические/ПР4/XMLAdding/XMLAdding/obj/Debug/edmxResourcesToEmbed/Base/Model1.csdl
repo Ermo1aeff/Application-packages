@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="IS_1_Ermolaev_PlantModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="botanical">
+    <Key>
+      <PropertyRef Name="botanical_id" />
+    </Key>
+    <Property Name="common_id" Type="Int32" Nullable="false" />
+    <Property Name="botanical_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="botanical_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="light_id" Type="Int32" />
+    <Property Name="price_id" Type="Int32" />
+    <Property Name="availability" Type="Int32" />
+    <NavigationProperty Name="common" Relationship="Self.FK_botanical_common" FromRole="botanical" ToRole="common" />
+    <NavigationProperty Name="light" Relationship="Self.FK_botanical_light" FromRole="botanical" ToRole="light" />
+    <NavigationProperty Name="price" Relationship="Self.FK_botanical_price" FromRole="botanical" ToRole="price" />
+    <Property Name="zone" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="common">
+    <Key>
+      <PropertyRef Name="common_id" />
+    </Key>
+    <Property Name="common_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="common_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="botanical" Relationship="Self.FK_botanical_common" FromRole="common" ToRole="botanical" />
+  </EntityType>
+  <EntityType Name="light">
+    <Key>
+      <PropertyRef Name="light_id" />
+    </Key>
+    <Property Name="light_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="light_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="botanical" Relationship="Self.FK_botanical_light" FromRole="light" ToRole="botanical" />
+  </EntityType>
+  <EntityType Name="price">
+    <Key>
+      <PropertyRef Name="price_id" />
+    </Key>
+    <Property Name="price_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="price_name" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="botanical" Relationship="Self.FK_botanical_price" FromRole="price" ToRole="botanical" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_botanical_common">
+    <End Role="common" Type="Self.common" Multiplicity="1" />
+    <End Role="botanical" Type="Self.botanical" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="common">
+        <PropertyRef Name="common_id" />
+      </Principal>
+      <Dependent Role="botanical">
+        <PropertyRef Name="common_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_botanical_light">
+    <End Role="light" Type="Self.light" Multiplicity="0..1" />
+    <End Role="botanical" Type="Self.botanical" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="light">
+        <PropertyRef Name="light_id" />
+      </Principal>
+      <Dependent Role="botanical">
+        <PropertyRef Name="light_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_botanical_price">
+    <End Role="price" Type="Self.price" Multiplicity="0..1" />
+    <End Role="botanical" Type="Self.botanical" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="price">
+        <PropertyRef Name="price_id" />
+      </Principal>
+      <Dependent Role="botanical">
+        <PropertyRef Name="price_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Entities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="botanical" EntityType="Self.botanical" />
+    <EntitySet Name="common" EntityType="Self.common" />
+    <EntitySet Name="light" EntityType="Self.light" />
+    <EntitySet Name="price" EntityType="Self.price" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <AssociationSet Name="FK_botanical_common" Association="Self.FK_botanical_common">
+      <End Role="common" EntitySet="common" />
+      <End Role="botanical" EntitySet="botanical" />
+    </AssociationSet>
+    <AssociationSet Name="FK_botanical_light" Association="Self.FK_botanical_light">
+      <End Role="light" EntitySet="light" />
+      <End Role="botanical" EntitySet="botanical" />
+    </AssociationSet>
+    <AssociationSet Name="FK_botanical_price" Association="Self.FK_botanical_price">
+      <End Role="price" EntitySet="price" />
+      <End Role="botanical" EntitySet="botanical" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(IS_1_Ermolaev_PlantModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(IS_1_Ermolaev_PlantModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

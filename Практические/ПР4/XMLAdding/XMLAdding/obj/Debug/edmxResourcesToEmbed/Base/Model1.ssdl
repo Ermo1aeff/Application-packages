@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="IS_1_Ermolaev_PlantModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="botanical">
+    <Key>
+      <PropertyRef Name="botanical_id" />
+    </Key>
+    <Property Name="common_id" Type="int" Nullable="false" />
+    <Property Name="botanical_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="botanical_name" Type="varchar" MaxLength="50" />
+    <Property Name="light_id" Type="int" />
+    <Property Name="price_id" Type="int" />
+    <Property Name="availability" Type="int" />
+    <Property Name="zone" Type="varchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="common">
+    <Key>
+      <PropertyRef Name="common_id" />
+    </Key>
+    <Property Name="common_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="common_name" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="light">
+    <Key>
+      <PropertyRef Name="light_id" />
+    </Key>
+    <Property Name="light_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="light_name" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="price">
+    <Key>
+      <PropertyRef Name="price_id" />
+    </Key>
+    <Property Name="price_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="price_name" Type="varchar" MaxLength="5" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_botanical_common">
+    <End Role="common" Type="Self.common" Multiplicity="1" />
+    <End Role="botanical" Type="Self.botanical" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="common">
+        <PropertyRef Name="common_id" />
+      </Principal>
+      <Dependent Role="botanical">
+        <PropertyRef Name="common_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_botanical_light">
+    <End Role="light" Type="Self.light" Multiplicity="0..1" />
+    <End Role="botanical" Type="Self.botanical" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="light">
+        <PropertyRef Name="light_id" />
+      </Principal>
+      <Dependent Role="botanical">
+        <PropertyRef Name="light_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_botanical_price">
+    <End Role="price" Type="Self.price" Multiplicity="0..1" />
+    <End Role="botanical" Type="Self.botanical" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="price">
+        <PropertyRef Name="price_id" />
+      </Principal>
+      <Dependent Role="botanical">
+        <PropertyRef Name="price_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="IS_1_Ermolaev_PlantModelStoreContainer">
+    <EntitySet Name="botanical" EntityType="Self.botanical" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="common" EntityType="Self.common" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="light" EntityType="Self.light" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="price" EntityType="Self.price" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_botanical_common" Association="Self.FK_botanical_common">
+      <End Role="common" EntitySet="common" />
+      <End Role="botanical" EntitySet="botanical" />
+    </AssociationSet>
+    <AssociationSet Name="FK_botanical_light" Association="Self.FK_botanical_light">
+      <End Role="light" EntitySet="light" />
+      <End Role="botanical" EntitySet="botanical" />
+    </AssociationSet>
+    <AssociationSet Name="FK_botanical_price" Association="Self.FK_botanical_price">
+      <End Role="price" EntitySet="price" />
+      <End Role="botanical" EntitySet="botanical" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

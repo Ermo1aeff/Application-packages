@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\4ИС1\\Ермолаев Егор\\42-09\\Ермолаев Е А\\Пакеты прикладных программ\\ПР4\\ConsoleApp1\\ConsoleApp1.csproj": {}
+  },
+  "projects": {
+    "D:\\4ИС1\\Ермолаев Егор\\42-09\\Ермолаев Е А\\Пакеты прикладных программ\\ПР4\\ConsoleApp1\\ConsoleApp1.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\4ИС1\\Ермолаев Егор\\42-09\\Ермолаев Е А\\Пакеты прикладных программ\\ПР4\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "D:\\4ИС1\\Ермолаев Егор\\42-09\\Ермолаев Е А\\Пакеты прикладных программ\\ПР4\\ConsoleApp1\\ConsoleApp1.csproj",
+        "packagesPath": "C:\\Users\\student.COLLEGE.000.001\\.nuget\\packages\\",
+        "outputPath": "D:\\4ИС1\\Ермолаев Егор\\42-09\\Ермолаев Е А\\Пакеты прикладных программ\\ПР4\\ConsoleApp1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\student.COLLEGE.000.001\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        }
+      }
+    }
+  }
+}

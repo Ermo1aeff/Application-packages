@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documents
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="insurance.xsd">
+	<insurance>
+		<title>
+			<primCalc>000</primCalc>
+			<year>2020</year>
+			<term>Л</term>
+			<name>Alexander Boris Jonson</name>
+			<inn>123456789</inn>
+			<okved>02.53.85</okved>
+			<phone>8(800)555-35-35</phone>
+			<members>4</members>
+		</title>
+
+		<chapter1>
+			<row100>
+				<col3>-1000</col3>
+				<col4>0</col4>
+				<col5>0</col5>
+				<col6>0</col6>
+			</row100>
+
+			<row110>
+				<col3>30000</col3>
+				<col6>10000</col6>
+			</row110>
+
+			<row120>
+				<col3>2000</col3>
+				<col4>2000</col4>
+				<col5>0</col5>
+				<col6>0</col6>
+			</row120>
+
+			<row130>
+				<col3>31000</col3>
+				<col4>0</col4>
+				<col5>0</col5>
+				<col6>15000</col6>
+			</row130>
+
+			<row140>
+				<col3>30000</col3>
+				<col4>0</col4>
+				<col5>0</col5>
+				<col6>0</col6>
+			</row140>
+
+			<row150>
+				<col3>0</col3>
+				<col4>0</col4>
+				<col5>0</col5>
+				<col6>15000</col6>
+			</row150>
+		</chapter1>
+
+		<chapter2>
+			<chapterPersons2>
+				<num>1</num>
+				<name>Alexander Boris Jonson</name>
+				<snils>648-411-792 49</snils>
+				<year>1964</year>
+				<startdate>2019-01-01</startdate>
+				<enddate>2024-12-31</enddate>
+				<pinsurance>15000</pinsurance>
+				<medinsurance>5000</medinsurance>
+			</chapterPersons2>
+			<chapterPersons2>
+				<num>2</num>
+				<name>Hillary Rodham Clinton</name>
+				<snils>157-381-441 64</snils>
+				<year>1947</year>
+				<startdate>2016-01-01</startdate>
+				<enddate>2016-12-31</enddate>
+				<pinsurance>15000</pinsurance>
+				<medinsurance>5000</medinsurance>
+			</chapterPersons2>
+		</chapter2>
+
+		<chapter3>
+			<chapterPersons3>
+				<num>1</num>
+				<osn>2</osn>
+				<name>Donald John Trump</name>
+				<snils>413-521-793 27</snils>
+				<year>1946</year>
+				<startdate>2017-01-01</startdate>
+				<enddate>2021-12-31</enddate>
+				<since2014>1000</since2014>
+				<pinsurance>1000</pinsurance>
+				<nakpension>0</nakpension>
+				<medinsurance>0</medinsurance>
+			</chapterPersons3>
+      <chapterPersons3>
+        <num>2</num>
+        <osn>2</osn>
+        <name>Angela Dorothea Merkel</name>
+        <snils>517-964-752 61</snils>
+        <year>1946</year>
+        <startdate>2017-01-01</startdate>
+        <enddate>2021-12-31</enddate>
+        <since2014>1000</since2014>
+        <pinsurance>1000</pinsurance>
+        <nakpension>0</nakpension>
+        <medinsurance>0</medinsurance>
+      </chapterPersons3>
+		</chapter3>
+	</insurance>
+</documents>

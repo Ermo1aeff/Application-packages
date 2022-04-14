@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="stringtype">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="inttype">
+    <xs:restriction base="xs:integer"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="regnumtype">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  
+  <xs:simpleType name="longtype">
+    <xs:restriction base="xs:long"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="gMonthtype">
+    <xs:restriction base="xs:gMonth"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="gYeartype">
+    <xs:restriction base="xs:gYear"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="datetype">
+    <xs:restriction base="xs:date"/>
+  </xs:simpleType>
+
+  <xs:complexType name="policyholdetype">
+    <xs:sequence>
+      
+      <xs:element name="regNum" type="longtype"/>
+      <xs:element name="name" type="stringtype"/>
+      <xs:element name="inn" type="longtype"/>
+      <xs:element name="kpp" type="longtype"/>
+
+      <xs:element name="typeForm">
+        <xs:simpleType>
+          <xs:restriction base="stringtype">
+            <!--Ограничения для типа формы-->
+            <xs:enumeration  value="Исходная"/>
+            <xs:enumeration  value="Дополняющая"/>
+            <xs:enumeration  value="Отменяющая"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="repMonth">
+        <xs:simpleType>
+          <xs:restriction base="gMonthtype">
+            <!--Ограничения отчетного периода-->
+            <xs:enumeration  value="--01--"/>
+            <xs:enumeration  value="--02--"/>
+            <xs:enumeration  value="--03--"/>
+            <xs:enumeration  value="--04--"/>
+            <xs:enumeration  value="--05--"/>
+            <xs:enumeration  value="--06--"/>
+            <xs:enumeration  value="--07--"/>
+            <xs:enumeration  value="--08--"/>
+            <xs:enumeration  value="--09--"/>
+            <xs:enumeration  value="--10--"/>
+            <xs:enumeration  value="--11--"/>
+            <xs:enumeration  value="--12--"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="repYear" type="gYeartype"/>
+      <xs:element name="dateOrder" type="datetype"/>
+      
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="insurerPersontype">
+    <xs:sequence>
+      <xs:element name="number" type="inttype"/>
+      <xs:element name="name" type="stringtype"/>
+      <xs:element name="snils" type="longtype"/>
+      <xs:element name="inn" type="longtype"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="insureOrdertype">
+    <xs:sequence>
+      <xs:element name="policyholder" type="policyholdetype"/>
+      <xs:element name="insurerPerson" maxOccurs="unbounded" type="insurerPersontype"/>
+    </xs:sequence>
+    <xs:attribute name="orderid" type="inttype" use="required"/>
+  </xs:complexType>
+
+  <xs:element name="insureOrder" type="insureOrdertype"/>
+</xs:schema>
